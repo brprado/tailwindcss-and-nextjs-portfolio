@@ -6,27 +6,26 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    name: "Spotify Recommender",
+    description: "Machine Learning model that recommends songs based on your Spotify playlist.",
+    image: "/spotify.png",
+    github: "https://github.com/brprado/spotify-recomendation-system",
+    link: "https://github.com/brprado/spotify-recomendation-system",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Uber Data ETL",
+    description: "An ETL pipeline that extracts data and loads it to a dashboard.",
+    image: "/uber.png",
+    github: "https://github.com/brprado/uber_etl_pipeline",
+    link: "https://github.com/brprado/uber_etl_pipeline",
   },
   {
-    name: "Kator Family Photos",
+    name: "Credit Card Cluster Analysis",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Customer segmentation using non supervised machine learning techniques",
+    image: "/credit-card.png",
+    github: "https://github.com/brprado/credit-card-cluster-analysis",
+    link: "https://github.com/brprado/credit-card-cluster-analysis",
   },
 ]
 
@@ -61,12 +60,12 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
+                      {/* <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> */}
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
@@ -80,7 +79,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )
