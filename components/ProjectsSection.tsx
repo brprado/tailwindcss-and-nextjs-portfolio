@@ -23,7 +23,7 @@ const projects = [
     name: "Credit Card Cluster Analysis",
     description:
       "Customer segmentation using non supervised machine learning techniques",
-    image: "/credit-card.png",
+    image: "/bank.png",
     github: "https://github.com/brprado/credit-card-cluster-analysis",
     link: "https://github.com/brprado/credit-card-cluster-analysis",
   },
