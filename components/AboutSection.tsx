@@ -33,7 +33,7 @@ const AboutSection = () => {
               Hi, my name is Bruno and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
+              <span className="font-bold">{" driven"}</span> data scientist
               based in Salvador, BA.
             </p>
             <br />
