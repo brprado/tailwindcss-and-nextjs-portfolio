@@ -6,6 +6,13 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Medium Articles",
+    description: "My Medium Articles about machine learning, data science and another stuffs",
+    image: "/spotify.png",
+    github: "https://medium.com/@brunopradocode",
+    link: "https://medium.com/@brunopradocode",
+  },
+  {
     name: "Spotify Recommender",
     description: "Machine Learning model that recommends songs based on your Spotify playlist.",
     image: "/spotify.png",
