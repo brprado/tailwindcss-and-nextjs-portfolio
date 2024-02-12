@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Medium Articles",
     description: "My Medium Articles about machine learning, data science and another stuffs",
-    image: "/spotify.png",
+    image: "/medium.png",
     github: "https://medium.com/@brunopradocode",
     link: "https://medium.com/@brunopradocode",
   },
