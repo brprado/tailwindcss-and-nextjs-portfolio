@@ -39,14 +39,13 @@ const AboutSection = () => {
             <br />
             <p>
 
-              I am currently studying software at Universidade Católica do Salvador
-              (UCSal) and I also work as an intern data scientist at Lactec.
+              I am currently studying Data Science at FIAP and I also work as an Machine Learning Engineer at Neoenergia.
             </p>
             <br />
             <p>
               I am passionate about data and I try to always be on top of everything that
-              happens in this vast universe. AI, Deep Learning,
-              Machine Learning and data visualization are my biggest interests
+              happens in this vast universe. AI, Deep Learning and
+              Machine Learning are my biggest interests
             </p>
             <br />
             <p>
